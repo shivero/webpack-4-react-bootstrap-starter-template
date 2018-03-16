@@ -1,10 +1,9 @@
 {
-  "name": "webpack4",
+  "name": "webpack4-starter-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starter template for webpack 4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "dev": "webpack --mode development"
