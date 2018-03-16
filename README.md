@@ -4,17 +4,17 @@
 
 ## Getting started
 
-Make sure u install all dependencies first, run **npm -i** (shorthand for npm install)
-`npm -i`
+Make sure u install all dependencies first, run `npm -i` (shorthand for npm install)
+```npm -i```
 
 To use configured development mode simply run
-`npm run start`
+```npm run start```
 To build all files for production run
-`npm run build`
+```npm run build```
 Output is minified via --mode flag which is set to production (already minified, optimized bundle)
 
 Optionally there's configured task to export files with development mode (output is **not** minimized / optimized). To use it run
-`npm run dev`
+```npm run dev```
 
 ## What's already configured?
 
