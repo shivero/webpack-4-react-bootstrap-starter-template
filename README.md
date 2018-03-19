@@ -7,7 +7,7 @@
 Make sure you install all dependencies first, run `npm -i` (shorthand for npm install)
 
 ```
-npm -i
+npm i
 ```
 
 To use configured development mode simply run
@@ -22,7 +22,7 @@ To build all files for production run
 npm run build
 ```
 
-Output is minified via --mode flag which is set to production (already minified, optimized bundle)
+Output is minified via --mode flag which is set to production (already minified, optimized bundle) - output location is set to default **/dist directory**
 
 Optionally there's configured task to export files with development mode (output is **not** minimized / optimized). To use it run
 
@@ -32,7 +32,7 @@ npm run dev
 
 ## What's already configured?
 
-* html-webpack-plugin - allows use of predefined html template (entry file: **index.html**)
+* html-webpack-plugin - allows use of predefined html template (entry file: **./src/index.html**)
 * webpack-dev-server - serves an app and opens browser on default port (**8080**). Updates the browser on changes.
 
 ## Project structure
