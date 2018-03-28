@@ -1,6 +1,6 @@
-# Webpack 4 React, Boostrap 4 starter template
+# Webpack 4 starter template with React, Boostrap 4
 
-> Starter template for projects that use webpack 4 in pair with React, Boostrap 4 and ES6  Javascript. This project contains configuration for development and production deploy using webpack 4 module bundler and tools which _might_ be helpfull
+> Starter template for projects that use webpack 4 in pair with React, Boostrap 4 and ES6 Javascript. This project contains configuration for development and production deploy using webpack 4 module bundler and tools which _might_ be helpfull
 
 ## Getting started
 
@@ -31,6 +31,7 @@ npm run dev
 ```
 
 ## What's already configured?
+
 * **React** - create app components using Facebook's React Javascript UI library
 * **Boostrap 4** - popular framework for building responsive, mobile-first sites
 * **Babel** - transpile javascript ES6 code down to ES5
