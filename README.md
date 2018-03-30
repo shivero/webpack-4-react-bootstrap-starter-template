@@ -22,7 +22,7 @@ To build all files for production run
 npm run build
 ```
 
-Output is minified via --mode flag which is set to production (already minified, optimized bundle)
+Output is minified via --mode flag which is set to production (already minified, optimized bundle) - additionally **/dist** directory is removed each time you run this script to make sure there's no artifacts left in output location
 
 Optionally there's configured task to export files with development mode (output is **not** minimized / optimized). To use it run
 
@@ -38,12 +38,14 @@ npm run dev
 * **Extract Text Plugin** - extract styles to separate files
 * **SASS Loader** - utilize modern SASS preprocessor to create styles for your app and compile them to .css
 * **Html Webpack Plugin** - allows use of predefined html template (entry file: **./src/index.html**)
+* **File Loader** - allows use of media files in project via emitted url
+* **Image Webpack Loader** - compress source images in build with imagemin
 * **Webpack Dev Server** - serves an app and opens browser for development. Updates the browser on file changes.
 
 ## Project structure
 
 * **/src** - here are all development files
-* **/dist** - production output
+* **/dist** - production output, imported libraries are bundled into vendor.[hash].js, while rest of components are in app.[hash].js (same for styles)
 
 ## Tools used to make life a little better
 

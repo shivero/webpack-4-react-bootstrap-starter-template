@@ -3,3 +3,10 @@
 body{
      color: $orange;
 }
+
+.container{
+    background: url('../components/category-component/sun.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
