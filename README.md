@@ -1,6 +1,6 @@
 # Webpack 4 starter template with React, Boostrap 4
 
-> Starter template for projects that use webpack 4 in pair with React, Boostrap 4 and ES6 Javascript. This project contains configuration for development and production deploy using webpack 4 module bundler and tools which _might_ be helpfull
+> Starter template for projects that use webpack 4 in pair with React, Boostrap 4 and ES6 Javascript. This project contains configuration for development and production deploy using webpack 4 module bundler and tools which _might_ be helpful
 
 ## Getting started
 
