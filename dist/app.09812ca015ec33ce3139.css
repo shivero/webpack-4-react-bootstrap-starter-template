@@ -1,0 +1,24 @@
+body {
+  color: #5a6169;
+  background-color: #fafafa; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #212529; }
+
+h1 {
+  font-size: 34px; }
+
+a {
+  color: #0067F4; }
+
+.welcome {
+  font-size: 24px;
+  margin-bottom: 20px; }
+
+.bg-demo {
+  background: url(src/components/category-component/sun-2743df77.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: whitesmoke;
+  width: 250px;
+  height: 250px; }
