@@ -6,6 +6,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/shivero/webpack-4-react-bootstrap-starter-template.svg)
 ![GitHub forks](https://img.shields.io/github/forks/shivero/webpack-4-react-bootstrap-starter-template.svg)
 
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/shivero/webpack-4-react-bootstrap-starter-template/@babel/core.svg)
 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/shivero/webpack-4-react-bootstrap-starter-template/webpack-cli.svg)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/shivero/webpack-4-react-bootstrap-starter-template/webpack-dev-server.svg)
