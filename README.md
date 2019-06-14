@@ -2,8 +2,6 @@
 
 > Starter template for projects that use webpack 4 in pair with React, Bootstrap 4 and ES6 Javascript. This project contains configuration for development and production deploy using webpack 4 module bundler and tools which _might_ be helpful
 
-
-![dependencies](https://img.shields.io/david/shivero/webpack-4-react-bootstrap-starter-template.svg?style=flat)
 ![license](https://img.shields.io/github/license/shivero/webpack-4-react-bootstrap-starter-template.svg )
 ![GitHub stars](https://img.shields.io/github/stars/shivero/webpack-4-react-bootstrap-starter-template.svg)
 ![GitHub forks](https://img.shields.io/github/forks/shivero/webpack-4-react-bootstrap-starter-template.svg)
