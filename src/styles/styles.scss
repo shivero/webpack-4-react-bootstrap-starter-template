@@ -1,12 +1,28 @@
-@import "/_colors.scss";
 
-body{
-     color: $orange;
+@import "/_colors.scss";
+body {
+    color: $body-text;
+    background-color: #fafafa;
+}
+h1,h2,h3,h4,h5,h6{
+    color: $heading-text;
+}
+h1{
+    font-size: 34px;
 }
 
-.container{
+a{
+    color: $link-color;
+}
+.welcome{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.bg-demo {
     background: url('../components/category-component/sun.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-color: whitesmoke;
+    width: 250px;
+    height: 250px;
 }
