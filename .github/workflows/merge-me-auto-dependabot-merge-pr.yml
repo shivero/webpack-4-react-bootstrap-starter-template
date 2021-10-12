@@ -1,12 +1,16 @@
 name: Merge me!
 
 on:
-  workflow_run:
-    types:
-      - completed
-    workflows:
-      # List all required workflow names here.
-      - 'Continuous Integration'
+#   workflow_run:
+#     types:
+#       - completed
+#     workflows:
+#       # List all required workflow names here.
+#       - 'Continuous Integration'
+  # run on pull request
+  pull_request_target:
+  # enables button to manually run action in actions tab
+  workflow_dispatch:
 
 jobs:
   merge-me:
