@@ -91,8 +91,8 @@ module.exports = {
     ],
   },
   devServer: {
-    contentBase: './dist',
     hot: true,
+    open: true, // automatically open browser
   },
   plugins: [
     extractSass,
