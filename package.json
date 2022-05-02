@@ -49,8 +49,8 @@
         "postcss-mixins": "^9.0.2",
         "postcss-nested": "^4.2.1",
         "postcss-simple-vars": "^6.0.3",
-        "react": "^16.13.0",
-        "react-dom": "^16.13.0",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
         "sass-loader": "^8.0.2",
         "webpack": "^4.46.0",
         "webpack-merge": "^5.8.0"
