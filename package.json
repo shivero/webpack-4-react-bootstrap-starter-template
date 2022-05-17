@@ -14,7 +14,7 @@
     "dependencies": {
         "@babel/core": "^7.17.10",
         "@babel/preset-env": "^7.17.10",
-        "@babel/preset-react": "^7.8.3",
+        "@babel/preset-react": "^7.17.12",
         "bootstrap": "^4.4.1",
         "clean-webpack-plugin": "^4.0.0",
         "eslint": "^8.15.0",
