@@ -1,8 +1,5 @@
 name: Dependabot auto-merge
-on: 
-  pull_request:
-# enables button to manually run action in actions tab
-  workflow_dispatch:
+on: pull_request
 
 permissions:
   contents: write
