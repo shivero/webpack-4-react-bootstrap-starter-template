@@ -15,7 +15,7 @@
         "@babel/core": "^7.18.0",
         "@babel/preset-env": "^7.18.0",
         "@babel/preset-react": "^7.17.12",
-        "bootstrap": "^4.4.1",
+        "bootstrap": "^5.2.0",
         "clean-webpack-plugin": "^4.0.0",
         "eslint": "^8.15.0",
         "jquery": "^3.5.0",
