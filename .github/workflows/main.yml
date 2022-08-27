@@ -31,7 +31,7 @@ jobs:
             output_file: "diagram.svg"
             excluded_paths: "dist,node_modules"
             artifact_name: "diagram generation"
-            should_push: true,
+            should_push: true
             branch: 'diagram'
             commit_message: 'updated diagram'
 
