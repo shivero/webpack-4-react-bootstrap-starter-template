@@ -32,6 +32,6 @@ jobs:
             excluded_paths: "dist,node_modules"
             artifact_name: "diagram generation"
             should_push: true
-            branch: 'diagram'
-            commit_message: 'updated diagram'
+            #branch: 'diagram'
+            #commit_message: 'updated diagram'
 
