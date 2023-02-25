@@ -5,7 +5,11 @@
 
 ## Getting started
 
-Make sure you install all dependencies first, run npm -i (shorthand for npm install)
+Make sure you install all dependencies first, run npm -i (shorthand for npm install).
+Compatible with
+``` 
+Node 16.19.1 
+```
 
 ```
 npm i
