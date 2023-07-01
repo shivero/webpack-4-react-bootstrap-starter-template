@@ -1,11 +1,11 @@
 # Webpack 4 starter boilerplate template with React, Bootstrap 4
 
-> Starter template for projects that use webpack 4 in pair with React, Bootstrap 4 and ES6 Javascript. This project contains configuration for development and production deploy using webpack 4 module bundler and tools which _might_ be helpful
+> Starter template for projects that use Webpack 4 in conjunction with React, Bootstrap 4 and ES6 JavaScript. This project contains configuration for development and production deployment using the Webpack 4 module bundler and tools that might be helpful.
 
 
 ## Getting started
 
-Make sure you install all dependencies first, run npm -i (shorthand for npm install).
+Make sure to install all dependencies first, run npm -i (shorthand for npm install).
 Compatible with
 ``` 
 Node 16.19.1 
@@ -27,9 +27,9 @@ To build all files for the production run
 npm run build
 ```
 
-An output is minified via --mode flag which is set to production (already minified, optimized bundle) - additionally **/dist** directory is removed each time you run this script to make sure there are no artifacts left in the output location
+An output is minified via --mode flag (default `'production'` - already minified, optimized bundle) - additionally, the **/dist** directory is removed each time you run this script to make sure there are no artifacts left in the output location.
 
-Optionally there is configured a task to export files with development mode (output is **not** minimized/optimized). To use it run
+You can choose to export files in development mode (the output is not minimized or optimized). To use it, run
 
 ```
 npm run dev
